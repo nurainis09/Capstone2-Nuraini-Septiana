@@ -273,7 +273,6 @@ __Asumsi__
 # 5. Penutup
 
 Sesuai pola dan kebutuhan dari pengguna moda Royaltrans per `corridorID` / `corridorName`, berikut perbaikan jadwal yang dapat digunakan untuk mengakomodir traffic pengguna.
-
 | corridorID | corridorName                  | direction | Jumlah Jadwal Sebelum | Jumlah Jadwal Sesudah |
 |------------|--------------------------------|-----------|------------------------|------------------------|
 | 1K         | Cibubur Junction - Blok M     | 0         | 2                      | 13                     |
@@ -284,8 +283,8 @@ Sesuai pola dan kebutuhan dari pengguna moda Royaltrans per `corridorID` / `corr
 | 6P         | Cibubur - Kuningan            | 1         | 3                      | 8                      |
 | B13        | Bekasi Barat - Blok M         | 0         | 10                     | 12                     |
 | B13        | Bekasi Barat - Blok M         | 1         | 9                      | 12                     |
-| B14        | Bekasi Barat - Kuningan       | 0         | 1                      | 14                      |
-| B14        | Bekasi Barat - Kuningan       | 1         | 9                      | 14                      |
+| B14        | Bekasi Barat - Kuningan       | 0         | 1                      | 14                     |
+| B14        | Bekasi Barat - Kuningan       | 1         | 9                      | 14                     |
 | D31        | Cinere - Kuningan             | 0         | 2                      | 6                      |
 | D31        | Cinere - Kuningan             | 1         | 2                      | 0                      |
 | D32        | Cinere - Bundaran Senayan     | 0         | 12                     | 15                     |
@@ -294,8 +293,10 @@ Sesuai pola dan kebutuhan dari pengguna moda Royaltrans per `corridorID` / `corr
 | S12        | BSD Serpong - Fatmawati       | 1         | 14                     | 8                      |
 | S31        | Bintaro - Fatmawati           | 0         | 19                     | 11                     |
 | S31        | Bintaro - Fatmawati           | 1         | 17                     | 11                     |
-| T21        | Palem Semi - Bundaran Senayan | 0         | 0                     | 13                     |
+| T21        | Palem Semi - Bundaran Senayan | 0         | 0                      | 13                     |
 | T21        | Palem Semi - Bundaran Senayan | 1         | 15                     | 13                     |
+| **Total**  |                                |           | **187**                | **198**                |
+
 
 
 Jadwal ini dapat dievaluasi pada masa yang akan datang apabila terjadi perubahan kembali pada pola pengguna Royaltrans per corridor.
